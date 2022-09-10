@@ -56,3 +56,20 @@ button:hover {
     font-size: 120%;
     width: 90%;
 }
+.description {
+    text-transform: capitalize;
+    margin-right: 1rem;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.humidity {
+    margin-bottom: 0.8rem;
+}
+.city {
+    margin-bottom: 0.6rem;
+}
+.weather.loading {
+    visibility: hidden;
+}
